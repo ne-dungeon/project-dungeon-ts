@@ -1,7 +1,7 @@
 {
-  "name": "phaser-typescript",
+  "name": "project-dungeon-ts",
   "version": "1.0.0",
-  "description": "Template setup to run and build a Phaser 3 project in Typescript, using Jest for unit testing.",
+  "description": "Project Dungeon Project rebuilt in Phaser with Typescript.",
   "main": "src/index.ts",
   "scripts": {
     "build": "webpack --config webpack/prod.js ",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ne-dungeon/phaser-typescript.git"
+    "url": "git+https://github.com/ne-dungeon/project-dungeon-ts.git"
   },
   "keywords": ["phaser3", "phaser", "typescript", "express", "jest"],
-  "author": "Anna Dunster <anna@annardunster.com> (https://annardunster.com/)",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ne-dungeon/phaser-typescript/issues"
+    "url": "https://github.com/ne-dungeon/project-dungeon-ts/issues"
   },
-  "homepage": "https://github.com/ne-dungeon/phaser-typescript#readme",
+  "homepage": "https://github.com/ne-dungeon/project-dungeon-ts#readme",
   "dependencies": {
     "phaser": "^3.55.2",
     "typescript": "^4.7.4"
