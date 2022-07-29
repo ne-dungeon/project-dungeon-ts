@@ -1,14 +1,14 @@
-# Phaser 3 Typescript Project Template
+# Project Dungeon Typescript
 
-This is a basic template to start a Phaser 3 game using Typescript. It is heavily based on the official [Phaser 3 Project Template](https://github.com/photonstorm/phaser3-project-template) repository, with the addition of Typescript transpilation via `ts-loader`. It also uses Babel and Webpack to build code, and to enable hot reloading in the dev build.
+This is a rewite of the C#/Unity version of Project Dungeon into Phaser and Typescript. At this stage this is wholly experimental but if it goes well we will commit to a full switch.
 
-The template includes Jest as a testing library, and the Typescript version of StandardJS for code formatting and linting.
+Based on our [Phaser Typescript template](https://github.com/ne-dungeon/phaser-typescript), this project uses Phaser 3 and transpiles Typescript via Webpack using `ts-loader`. It also uses Babel and Webpack to build production code, and to enable hot reloading in the dev build.
 
-<!-- TODO: Figure out why above repo says using import to get game images is not recommended and what the appropriate alternative is -->
+The project includes Jest as a testing library, and the Typescript version of StandardJS for code formatting and linting.
 
 ## Requirements
 
-Node.js is required to install dependencies and run scripts. This template was created using Node v17.4.0 and npm v8.14.0.
+Node.js is required to install dependencies and run scripts. The project was created using Node v17.4.0 and npm v8.14.0.
 
 ## Available Commands
 
