@@ -1,11 +1,11 @@
-import { MyGame } from './mygame'
+import { Scene } from './scene'
 
 const config = {
   type: Phaser.AUTO,
   parent: 'phaser-example',
   width: 800,
   height: 600,
-  scene: MyGame
+  scene: Scene
 }
 
 /* eslint-disable @typescript-eslint/no-unused-vars */

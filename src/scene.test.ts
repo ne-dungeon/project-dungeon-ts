@@ -1,16 +1,16 @@
-import { MyGame } from './mygame'
+import { Scene } from './scene'
 
-describe('My Game', () => {
+describe('Scene', () => {
   const config = {
     type: Phaser.HEADLESS,
     parent: 'phaser-example',
     width: 800,
     height: 600,
-    scene: MyGame
+    scene: Scene
   }
 
   test('should be defined', () => {
-    expect(MyGame).toBeDefined()
+    expect(Scene).toBeDefined()
   })
 
   test('can test creating a game', () => {
